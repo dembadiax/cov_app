@@ -41,6 +41,7 @@ gem 'angular-rails-templates'
 gem 'font-awesome-rails'
 gem 'momentjs-rails'
 gem 'bootstrap-datepicker-rails'
+gem 'bootstrap-generators', '~> 3.3.4'
 gem 'rails_admin'
 gem 'carrierwave', '~> 1.0'
 

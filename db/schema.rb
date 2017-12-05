@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171203105358) do
+ActiveRecord::Schema.define(version: 20171205125825) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,6 +24,17 @@ ActiveRecord::Schema.define(version: 20171203105358) do
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_commentaires_on_user_id", using: :btree
     t.index ["voyage_id"], name: "index_commentaires_on_voyage_id", using: :btree
+  end
+
+  create_table "notes", force: :cascade do |t|
+    t.integer  "note"
+    t.string   "remarques"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "voyageur_id"
+    t.integer  "voyage_id"
+    t.index ["voyage_id"], name: "index_notes_on_voyage_id", using: :btree
+    t.index ["voyageur_id"], name: "index_notes_on_voyageur_id", using: :btree
   end
 
   create_table "reservations", force: :cascade do |t|
@@ -136,6 +147,8 @@ ActiveRecord::Schema.define(version: 20171203105358) do
 
   add_foreign_key "commentaires", "users"
   add_foreign_key "commentaires", "voyages"
+  add_foreign_key "notes", "voyages"
+  add_foreign_key "notes", "voyageurs"
   add_foreign_key "reservations", "voyages"
   add_foreign_key "reservations", "voyageurs"
   add_foreign_key "reservations", "voyagistes"

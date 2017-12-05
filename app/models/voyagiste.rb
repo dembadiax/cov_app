@@ -4,4 +4,5 @@ class Voyagiste < ApplicationRecord
   belongs_to :vehicule
 
   has_many  :trajets
+  has_many  :notes, through: :voyage
 end
