@@ -1,0 +1,48 @@
+{
+  "name": "covoiturage",
+  "authors": [
+    "Demba <dembadiax@gmail.com>"
+  ],
+  "description": "Application de Covoiturage au sénégal",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "lib": {
+    "name": "bower-rails generated lib assets",
+    "dependencies": {}
+  },
+  "vendor": {
+    "name": "bower-rails generated vendor assets",
+    "dependencies": {
+      "angular": "latest",
+      "angular-nvd3": "latest",
+      "metisMenu": "latest",
+      "angular-stepper": "latest",
+      "angular-ui-router": "latest",
+      "angular-ui-select2": "latest",
+      "angular-datepicker": "latest",
+      "angular-utils-pagination": "latest",
+      "angular-bootstrap-switch": "https://github.com/frapontillo/angular-bootstrap-switch.git#v0.4.0-alpha.1",
+      "angular-animate": "latest",
+      "highcharts-ng": "latest",
+      "angular-ui-select": "latest",
+      "angularjs-geolocation": "latest",
+      "angular-country-select": "latest",
+      "angular-notify": "latest",
+      "angular-i18n": "latest",
+      "angular-ladda": "latest"
+    }
+  },
+  "dependencies": {
+    "angular": "^1.6.7",
+    "angular-ui-router": "^1.0.11",
+    "bootstrap": "^3.3.7"
+  }
+}

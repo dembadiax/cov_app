@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  matricule: MyString
+  marque: MyString
+  modele: MyString
+  annee: 1
+  climatisation: false
+  nombre_places: 1
+
+two:
+  matricule: MyString
+  marque: MyString
+  modele: MyString
+  annee: 1
+  climatisation: false
+  nombre_places: 1

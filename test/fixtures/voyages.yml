@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lieux_depart: MyString
+  lieux_arrivee: MyString
+  tarif: 1
+  monnaie: MyString
+  peage: false
+  etat: MyString
+  heure_depart: 2017-12-02 10:59:30
+  heure_arrivee: 2017-12-02 10:59:30
+
+two:
+  lieux_depart: MyString
+  lieux_arrivee: MyString
+  tarif: 1
+  monnaie: MyString
+  peage: false
+  etat: MyString
+  heure_depart: 2017-12-02 10:59:30
+  heure_arrivee: 2017-12-02 10:59:30

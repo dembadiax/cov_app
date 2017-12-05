@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2017-12-02 10:54:28
+  lieux_depart: MyString
+  lieux_arrivee: MyString
+  etat: MyString
+  nombre_places: MyString
+  nombre_valises: MyString
+  heure_depart: MyString
+  heure_arivee: MyString
+  frequence: MyString
+
+two:
+  date: 2017-12-02 10:54:28
+  lieux_depart: MyString
+  lieux_arrivee: MyString
+  etat: MyString
+  nombre_places: MyString
+  nombre_valises: MyString
+  heure_depart: MyString
+  heure_arivee: MyString
+  frequence: MyString

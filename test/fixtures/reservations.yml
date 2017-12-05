@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  etat: MyString
+  voyageur: one
+  voyage: one
+
+two:
+  etat: MyString
+  voyageur: two
+  voyage: two

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  utilisateur: one
+  voyage: one
+  vehicule: one
+
+two:
+  utilisateur: two
+  voyage: two
+  vehicule: two
