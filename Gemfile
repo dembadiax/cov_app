@@ -36,6 +36,7 @@ gem 'ckeditor', github: 'mkaszubowski/ckeditor'
 gem 'paperclip'
 
 gem 'bower-rails'
+gem "twitter-bootstrap-rails"
 gem 'bootstrap-sass', '3.1.1'
 gem 'angular-rails-templates'
 gem 'font-awesome-rails'
